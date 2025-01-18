@@ -40,7 +40,14 @@ npm run dev
 npm test
 ```
 
-5. check documentation with swagger
+5. Or Running with docker
+   make sure your environment variable is set
+
+```bash
+docker-compose up -d --build
+```
+
+6. check documentation with swagger
    make sure this app running
 
 ```bash
