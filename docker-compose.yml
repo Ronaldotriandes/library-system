@@ -7,7 +7,7 @@ services:
       - '3000:3000'
     environment:
       - PORT=${PORT}
-      - MONGODB_URL=${MONGODB_URL}
+      - MONGODB_URI=mongodb://mongodb:27017/library
     depends_on:
       - mongodb
     volumes:
